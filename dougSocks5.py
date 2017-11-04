@@ -61,7 +61,7 @@ class SimpleHTTPProxyHandler(BaseHTTPRequestHandler):
             conn = socket.create_connection(address)
         except socket.error:
             return
-        self.send_response(200, 'NET FREE')
+        self.send_response(200, '@Dougssh @Mundodoug')
         self.send_header('Connection', 'close')
         self.end_headers()
 
